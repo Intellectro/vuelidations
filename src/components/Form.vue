@@ -107,6 +107,7 @@ export default {
                 alert("Data sent successfully");
                 document.querySelectorAll("input").forEach((input) => {
                     input.value = "";
+                    input.style.borderColor = "black";
                 });
             }
         },
